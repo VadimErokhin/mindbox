@@ -10,4 +10,5 @@ export default defineConfig({
     environment: "jsdom",
     root: "src/",
   },
+  base: "/mindbox",
 });
