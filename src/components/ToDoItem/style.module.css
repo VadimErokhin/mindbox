@@ -1,0 +1,20 @@
+.todoItem {
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  min-width: 300px;
+  cursor: pointer;
+}
+
+.name {
+  margin-right: 10px;
+}
+
+.crossedOut {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
